@@ -20,8 +20,8 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div className="description mt-32 text-center">
-            <p>
+          <div className="description mt-32 text-center mx-auto max-w-lg sm:text-2xl">
+            <p >
               I am an extremely <strong>passionate</strong> developer, I work on
               web development alongside game development, and when i have some
               spare time i like to tinker with hardware, soldering and such.
