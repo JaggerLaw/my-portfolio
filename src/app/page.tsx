@@ -17,7 +17,7 @@ export default function Home() {
 
             <div className="navbar-links flex text-end">
               <ul className="flex gap-8 text-lg font-medium text-zinc-600 dark:text-zinc-400 pt-5">
-                <Link href="#about-anchor">About</Link>
+                <li><Link href="#about-anchor">About</Link></li>
                 <li>Projects</li>
                 <li>Contact</li>
               </ul>
@@ -40,12 +40,22 @@ export default function Home() {
               email and let's have a chat !
             </p>
           </div>
-          <div className="career-and-experience-title mt-100 sm:text-5xl">
+          <div className="career-and-experience-title mt-100 sm:text-5xl flex justify-center pb-10">
             <h1>My Career &</h1>
             <h1>Experience</h1>
           </div>
-          <div className="career-and-experience">
+          <div className="career-and-experience flex justify-center gap-6">
             
+            <div
+              className="web-development-career outline-2 outline-blue-500 
+            outline-offset-2 w-1/3 h-50 rounded-xl"
+            ></div>
+
+            <div
+              className="game-development-career outline-2 outline-blue-500 
+            outline-offset-2 w-1/3 h-50 rounded-xl"
+            ></div>
+
           </div>
         </div>
       </main>
